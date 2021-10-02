@@ -1,0 +1,14 @@
+nav {
+  background-color: green;
+  ul {
+    display: flex;
+    padding: 0.5em 0.5em 0.5em;
+    li {
+      padding: 2rem;
+      a {
+        text-decoration: none;
+        font-size: 2rem;
+      }
+    }
+  }
+}

@@ -1,4 +1,5 @@
 import './App.scss';
+import './styles/reset.scss'
 import Header from './components/layout/Header';
 import Bottom from './components/layout/Bottom';
 function App() {

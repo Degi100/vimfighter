@@ -1,6 +1,8 @@
+import '../../styles/bottom.scss'
+
 const Bottom = () => {
   return (
-    <div>
+    <div className="bottom">
       <h2>Bottom</h2>
     </div>
   );

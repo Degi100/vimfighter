@@ -1,4 +1,4 @@
-import Nav from "../navbar/nav";
+import Nav from "../navbar/Nav";
 
 const Header = () => {
   return (

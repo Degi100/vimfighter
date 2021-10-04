@@ -7,3 +7,4 @@
 
 ## Good to know
 - rfce
+- fast arrowfunction = fa

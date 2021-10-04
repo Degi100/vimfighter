@@ -1,13 +1,10 @@
-import Vim from '../vim/vim';
+const Vim = () => {
+  return (
+    <div className="VimPage">
+      <h2>Vim Page - Some Stuff all about Vim</h2>
 
-const VimPage = () => {
-	return (
-		<div className="VimPage">
-		<h2>Vim Page - Some Stuff all about Vim</h2>
-		<Vim />
-		</div>
-	)
-	
-}
+    </div>
+  );
+};
 
 export default Vim;

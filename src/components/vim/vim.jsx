@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import initialVim from "../../data/vim.json";
-// import ReactPlayer from "react-player";
+import ReactPlayer from "react-player";
 import "../../styles/vim.scss";
 
 const Vim = () => {
@@ -23,13 +23,13 @@ const Vim = () => {
 
   return (
     <div>
-      <input
-        type="text"
-        className="inputBox"
-        placeholder="Search for Command"
-        onChange={changeSearchText}
-        autoFocus
-      />
+    <input
+    type="text"
+    className="inputBox"
+    placeholder="Search for Command"
+    onChange={changeSearchText}
+    autoFocus
+    />
 
       <p className="count-all">
         There are {displayVimCommands.length} commands and{" "}
@@ -44,8 +44,9 @@ const Vim = () => {
               <ul>
                 <li className="title_belt">
                   {e.title} - {e.belt} - {e.category}
-                </li>
-                <li className="commands">{e.command}</li>
+                  </li>
+                  <li className="commands">{e.command}</li>
+                  <ReactPlayer url={e.tutorial} width='250px' height='auto' />
               </ul>
             </div>
           );

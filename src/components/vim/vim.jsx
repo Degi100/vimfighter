@@ -10,7 +10,9 @@ const Vim = () => {
   useEffect(() => {
     setDisplayVimCommands(
       initialVimCommands.filter((vimCommand) =>
-        vimCommand.title.toLowerCase().includes(searchText.toLowerCase())
+        vimCommand.title.toLowerCase().includes(searchText.toLowerCase()) ||
+        vimCommand.belt.toLowerCase().includes(searchText.toLowerCase()) ||
+        vimCommand.category.toLowerCase().includes(searchText.toLowerCase())
       )
     );
   }, [searchText]);
@@ -26,6 +28,7 @@ const Vim = () => {
         className="inputBox"
         placeholder="Search for Command"
         onChange={changeSearchText}
+        autoFocus
       />
 
       <p className="count-all">
@@ -40,7 +43,7 @@ const Vim = () => {
             <div className={`vimTitle`}>
               <ul>
                 <li className="title_belt">
-                  {e.title} - {e.belt}
+                  {e.title} - {e.belt} - {e.category}
                 </li>
                 <li className="commands">{e.command}</li>
               </ul>

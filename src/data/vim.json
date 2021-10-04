@@ -71,7 +71,7 @@
       "show": true
     },
     {
-      "title": "Dele line and substitute text",
+      "title": "Delete line and substitute text",
       "belt" : "white",
       "command": "S",
       "tutorial": "zB. YT-Link",
@@ -151,7 +151,7 @@
       "show": true
     },
     {
-      "title": "Put (paste) after curser",
+      "title": "Put (paste) after cursor",
       "belt" : "yellow",
       "command": "p",
       "tutorial": "zB. YT-Link",
@@ -159,7 +159,7 @@
       "show": true
     },
     {
-      "title": "put (paste) before the curser",
+      "title": "put (paste) before the cursor",
       "belt" : "yellow",
       "command": "P",
       "tutorial": "zB. YT-Link",
@@ -167,7 +167,7 @@
       "show": true
     },
     {
-      "title": "Put text from buffer a before curser",
+      "title": "Put text from buffer a before cursor",
       "belt" : "yellow",
       "command": "aP",
       "tutorial": "zB. YT-Link",
@@ -183,7 +183,7 @@
       "show": true
     },
     {
-      "title": "Delete # of lines with downward drom curser",
+      "title": "Delete # of lines with downward drom cursor",
       "belt" : "yellow",
       "command": "#dd",
       "tutorial": "zB. YT-Link",

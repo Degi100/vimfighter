@@ -34,7 +34,6 @@
     {
       "title": "Change (replace) entire line",
       "belt" : "white",
-      "command": "cc",
       "tutorial": "zB. YT-Link",
       "howto": "Javascript-game",
       "show": true
@@ -184,7 +183,7 @@
       "show": true
     },
     {
-      "title": "Dele # of lines with downward drom curser",
+      "title": "Delete # of lines with downward drom curser",
       "belt" : "yellow",
       "command": "#dd",
       "tutorial": "zB. YT-Link",

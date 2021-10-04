@@ -15,10 +15,6 @@ const Vim = () => {
     );
   }, [searchText]);
 
-  const vimCommandContainsSearchText = (vimCommand) => {
-    return vimCommand.title.toLowerCase().includes(searchText.toLowerCase());
-  };
-
   const changeSearchText = (e) => {
     setSearchText(e.target.value);
   };

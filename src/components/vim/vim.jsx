@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import initialVim from "../../data/vim.json";
 // import ReactPlayer from "react-player";
-import '../../styles/vim.scss';
+import "../../styles/vim.scss";
 
 const Vim = () => {
   const [searchText, setSearchText] = useState("");
@@ -16,14 +16,8 @@ const Vim = () => {
     setVimCommands([...vimCommands]);
   };
 
-  const titlesContainSearchText = (vimCommand) => {
-    let foundSearchText = false;
-    vimCommand.title.forEach((t) => {
-      if (t.toLowerCase().includes(searchText.toLowerCase())) {
-        foundSearchText = true;
-      }
-    });
-    return foundSearchText;
+  const vimCommandContainsSearchText = (vimCommand) => {
+    return vimCommand.title.toLowerCase().includes(searchText.toLowerCase());
   };
 
   return (
@@ -44,10 +38,11 @@ const Vim = () => {
         {initialVim.map((e) => {
           return (
             <div className={`vimTitle`}>
-              <ul >
-                <li className="title_belt">{e.title} - {e.belt}</li>
-                <li className="commands">{e.command}
+              <ul>
+                <li className="title_belt">
+                  {e.title} - {e.belt}
                 </li>
+                <li className="commands">{e.command}</li>
               </ul>
             </div>
           );
@@ -57,4 +52,3 @@ const Vim = () => {
   );
 };
 export default Vim;
-

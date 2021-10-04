@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import HomePage from "../pages/HomePage";
 import LinksPage from "../pages/LinksPage";
 import VimPage from "../pages/VimPage";
+import { AiOutlineHome } from "react-icons/ai";
 import "../../styles/nav.scss";
 
 function Nav() {
@@ -12,7 +13,10 @@ function Nav() {
         <nav>
           <ul>
             <li>
-              <Link to="/">Home</Link>
+              <Link to="/">
+                <AiOutlineHome />
+                Home
+              </Link>
             </li>
             <li>
               <Link to="/links">Links</Link>

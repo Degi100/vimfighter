@@ -1,0 +1,24 @@
+.vimTitle {
+	margin: 1.2rem;
+	ul {
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		margin: 1.2rem;
+    li {
+      list-style: none;
+    }
+
+	.title_belt {
+		background-color: rgb(244, 246, 112);
+	}
+
+	.commands {
+		background-color: rgb(177, 177, 177);
+		font-weight: bold;
+	}
+  }
+}
+
+
+

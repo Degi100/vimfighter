@@ -1,32 +1,36 @@
-.vimTitle {
-  margin: 1.2rem;
-  ul {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+.vimninjabelts {
+  border-top: 1px solid;
+  .vimTitle {
     margin: 1.2rem;
-    li {
-      list-style: none;
-      border: 1px solid black;
-      padding: 10px;
-      margin: 5px;
-      width: 200px;
-    }
 
-    .title_belt {
-      background-color: rgb(244, 246, 112);
-    }
+    ul {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      margin: 1.2rem;
+      li {
+        list-style: none;
+        border: 1px solid black;
+        padding: 10px;
+        margin: 5px;
+        width: 200px;
+      }
 
-    .commands {
-      background-color: rgb(177, 177, 177);
-      font-weight: bold;
-      text-align: center;
-      font-size: 22px;
+      .title_belt {
+        background-color: rgb(244, 246, 112);
+      }
+
+      .commands {
+        background-color: rgb(177, 177, 177);
+        font-weight: bold;
+        text-align: center;
+        font-size: 22px;
+      }
     }
   }
-}
-.inputBox {
-  padding: 10px;
-  width: 200px;
-  margin: 1.2rem;
+  .inputBox {
+    padding: 10px;
+    width: 200px;
+    margin: 1.2rem;
+  }
 }

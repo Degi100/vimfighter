@@ -9,10 +9,11 @@ const Vim = () => {
   const [initialVimCommands] = useState(initialVim);
   useEffect(() => {
     setDisplayVimCommands(
-      initialVimCommands.filter((vimCommand) =>
-        vimCommand.title.toLowerCase().includes(searchText.toLowerCase()) ||
-        vimCommand.belt.toLowerCase().includes(searchText.toLowerCase()) ||
-        vimCommand.category.toLowerCase().includes(searchText.toLowerCase())
+      initialVimCommands.filter(
+        (vimCommand) =>
+          vimCommand.title.toLowerCase().includes(searchText.toLowerCase()) ||
+          vimCommand.belt.toLowerCase().includes(searchText.toLowerCase()) ||
+          vimCommand.category.toLowerCase().includes(searchText.toLowerCase())
       )
     );
   }, [searchText]);
@@ -23,16 +24,16 @@ const Vim = () => {
 
   return (
     <div>
-    <input
-    type="text"
-    className="inputBox"
-    placeholder="Search for Command"
-    onChange={changeSearchText}
-    autoFocus
-    />
+      <input
+        type="text"
+        className="inputBox"
+        placeholder="Search for Command"
+        onChange={changeSearchText}
+        autoFocus
+      />
 
       <p className="count-all">
-        There are {displayVimCommands.length} commands and{" "}
+        There are {initialVimCommands.length} commands and{" "}
         {displayVimCommands.filter((vimCommand) => vimCommand.title).length} are
         showing.
       </p>
@@ -44,9 +45,9 @@ const Vim = () => {
               <ul>
                 <li className="title_belt">
                   {e.title} - {e.belt} - {e.category}
-                  </li>
-                  <li className="commands">{e.command}</li>
-                  <ReactPlayer url={e.tutorial} width='250px' height='auto' />
+                </li>
+                <li className="commands">{e.command}</li>
+                <ReactPlayer url={e.tutorial} width="250px" height="auto" />
               </ul>
             </div>
           );

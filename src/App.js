@@ -1,13 +1,14 @@
-import './App.scss';
-import './styles/reset.scss'
-import Header from './components/layout/Header';
-import Bottom from './components/layout/Bottom';
+import "./App.scss";
+import "./styles/reset.scss";
+import Header from "./components/layout/Header";
+import Bottom from "./components/layout/Bottom";
 
 function App() {
+ 
   return (
     <div className="App">
-    <Header /> 
-     <Bottom />
+      <Header />
+      <Bottom />
     </div>
   );
 }

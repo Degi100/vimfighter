@@ -1,8 +1,9 @@
 import Vim from '../vim/vim';
+import '../../styles/main.scss'
 const HomePage = () => {
   return (
     <div>
-      <h1>Vim Fighters</h1>
+
       <div className="container">
       <Vim />
       </div>

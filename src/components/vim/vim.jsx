@@ -25,8 +25,8 @@ const Vim = () => {
   return (
     <div>
       <input
-        type="text"
         className="inputBox"
+        type="text"
         placeholder="Search for Command"
         onChange={changeSearchText}
         autoFocus

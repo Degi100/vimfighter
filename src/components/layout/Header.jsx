@@ -1,10 +1,13 @@
 import Nav from "../navbar/Nav";
-import '../../styles/header.scss';
+import "../../styles/header.scss";
 
 const Header = () => {
   return (
-    <div className="header">
-      <Nav />
+    <div>
+      <div className="header-bg"> </div>
+      <div className="header">
+        <Nav />
+      </div>
     </div>
   );
 };

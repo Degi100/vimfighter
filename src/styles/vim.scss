@@ -1,25 +1,24 @@
 .vimninjabelts {
   border-top: 1px solid;
+  padding-top: 2rem;
+  background-color: rgb(201, 223, 216);
   .vimTitle {
-    margin: 1.2rem;
 
     ul {
-      padding-top: 40px;
       display: flex;
       justify-content: center;
       flex-direction: column;
       li {
         list-style: none;
         border: 1px solid black;
-
       }
-
+      
       .title_belt {
-        background-color: rgb(244, 246, 112);
+        background-color: rgb(4, 153, 17);
+        padding: 3px;
       }
-
+      
       .commands {
-
         background-color: rgb(177, 177, 177);
         font-weight: bold;
         text-align: center;
@@ -27,7 +26,11 @@
       }
     }
   }
-  .inputBox {
-    background-color: red;
-  }
+}
+
+.inputBox {
+  padding: 5px;
+  border-radius: 20px;
+  width: 250px;
+  margin: 10px;
 }

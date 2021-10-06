@@ -1,9 +1,10 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import HomePage from "../pages/HomePage";
-import LinksPage from "../pages/LinksPage";
+import Combo from "../pages/Combo";
 import VimPage from "../pages/VimPage";
 import { SiVim } from "react-icons/si";
+import { GiPuzzle } from "react-icons/gi"
 import "../../styles/nav.scss";
 
 function Nav() {
@@ -14,15 +15,14 @@ function Nav() {
           <ul>
             <li>
               <Link to="/">
-                <SiVim />
-                Home
+                <SiVim /> Search
               </Link>
             </li>
             <li>
-              <Link to="/links">Links</Link>
+              <Link to="/combination"><div className="react-icon"><GiPuzzle /> Combos </div></Link>
             </li>
             <li>
-              <Link to="/vim">Vim</Link>
+              <Link to="/vim"><GiPuzzle /> Vim</Link>
             </li>
           </ul>
         </nav>
@@ -30,8 +30,8 @@ function Nav() {
           <Route exact path="/vim">
             <VimPage />
           </Route>
-          <Route exact path="/links">
-            <LinksPage />
+          <Route exact path="/combination">
+            <Combo />
           </Route>
           <Route exact path="/">
             <HomePage />

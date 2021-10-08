@@ -13,7 +13,8 @@ const Vim = () => {
         (vimCommand) =>
           vimCommand.title.toLowerCase().includes(searchText.toLowerCase()) ||
           vimCommand.belt.toLowerCase().includes(searchText.toLowerCase()) ||
-          vimCommand.category.toLowerCase().includes(searchText.toLowerCase())
+          vimCommand.category.toLowerCase().includes(searchText.toLowerCase()) ||
+          vimCommand.tutorial.toLowerCase().includes(searchText.toLowerCase())
       )
     );
   }, [searchText]);
@@ -44,7 +45,7 @@ const Vim = () => {
             <div className={`vimTitle`}>
               <ul>
                 <li className="title_belt">
-                  {e.title} - {e.belt} - {e.category}
+                  {e.title} - {e.belt} - {e.category} 
                 </li>
                 <li className="commands">{e.command}</li>
                 <ReactPlayer url={e.tutorial} width="250px" height="auto" />

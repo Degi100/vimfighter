@@ -17,7 +17,7 @@ const Vim = () => {
           vimCommand.tutorial.toLowerCase().includes(searchText.toLowerCase())
       )
     );
-  }, [searchText]);
+  }, [searchText]); // eslint-disable-line react-hooks/exhaustive-deps
 
   const changeSearchText = (e) => {
     setSearchText(e.target.value);

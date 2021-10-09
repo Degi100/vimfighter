@@ -6,7 +6,7 @@ import { SiVim } from "react-icons/si";
 import { GiPuzzle } from "react-icons/gi"
 import "../../styles/nav.scss";
 
-function Nav() {
+function Navigation() {
   return (
     <Router>
       <div>
@@ -41,4 +41,4 @@ function Nav() {
   );
 }
 
-export default Nav;
+export default Navigation;

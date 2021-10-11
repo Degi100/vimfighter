@@ -7,125 +7,118 @@
     "category": "Editing",
     "show": true
   },
-
-
   {
-  "title": "Jump to first line",
-  "belt": "White",
-  "command": "gg",
-  "tutorial": "zB. YT-Link",
-  "category": "Text Movement",
-  "show": true
-},
+    "title": "Jump to first line",
+    "belt": "White",
+    "command": "gg",
+    "tutorial": "zB. YT-Link",
+    "category": "Text Movement",
+    "show": true
+  },
   {
-  "title": "Jump to last line",
-  "belt": "White",
-  "command": "g",
-  "tutorial": "zB. YT-Link",
-  "category": "Text Movement",
-  "show": true
-},
+    "title": "Jump to last line",
+    "belt": "White",
+    "command": "g",
+    "tutorial": "zB. YT-Link",
+    "category": "Text Movement",
+    "show": true
+  },
   {
-  "title": "Go to line",
-  "belt": "White",
-  "command": "#G",
-  "tutorial": "zB. YT-Link",
-  "category": "Text Movement",
-  "show": true
-},
+    "title": "Go to line",
+    "belt": "White",
+    "command": "#G",
+    "tutorial": "zB. YT-Link",
+    "category": "Text Movement",
+    "show": true
+  },
   {
-  "title": "Cursor top of the Screen",
-  "belt": "White",
-  "command": "H",
-  "tutorial": "zB. YT-Link",
-  "category": "Text Movement",
-  "show": true
-},
+    "title": "Cursor top of the Screen",
+    "belt": "White",
+    "command": "H",
+    "tutorial": "zB. YT-Link",
+    "category": "Text Movement",
+    "show": true
+  },
   {
-  "title": "Cursor bottom of the Screen",
-  "belt": "White",
-  "command": "L",
-  "tutorial": "zB. YT-Link",
-  "category": "Text Movement",
-  "show": true
-},
+    "title": "Cursor bottom of the Screen",
+    "belt": "White",
+    "command": "L",
+    "tutorial": "zB. YT-Link",
+    "category": "Text Movement",
+    "show": true
+  },
   {
-  "title": "End of paragraph",
-  "belt": "White",
-  "command": "}",
-  "tutorial": "zB. YT-Link",
-  "category": "Text Movement",
-  "show": true
-},
- {
-  "title": "Beginning paragraph",
-  "belt": "White",
-  "command": "{",
-  "tutorial": "zB. YT-Link",
-  "category": "Text Movement",
-  "show": true
-},
- {
-  "title": "Beginning sentence",
-  "belt": "White",
-  "command": "(",
-  "tutorial": "zB. YT-Link",
-  "category": "Text Movement",
-  "show": true
-},
-{
-  "title": "End of sentence",
-  "belt": "White",
-  "command": ")",
-  "tutorial": "zB. YT-Link",
-  "category": "Text Movement",
-  "show": true
-},
-{
-  "title": "Find word over cursor",
-  "belt": "White",
-  "command": "#",
-  "tutorial": "zB. YT-Link",
-  "category": "Text Movement",
-  "show": true
-},
-{
-  "title": "Find word under cursor",
-  "belt": "White",
-  "command": "*",
-  "tutorial": "zB. YT-Link",
-  "category": "Text Movement",
-  "show": true
-},
-{
-  "title": "Find opposite direction (word)",
-  "belt": "White",
-  "command": "N",
-  "tutorial": "zB. YT-Link",
-  "category": "Text Movement",
-  "show": true
-},
-{
-  "title": "Find same direction (word)",
-  "belt": "White",
-  "command": "n",
-  "tutorial": "zB. YT-Link",
-  "category": "Text Movement",
-  "show": true
-},
-{
-  "title": "Cursor to middle of screen",
-  "belt": "White",
-  "command": "M",
-  "tutorial": "zB. YT-Link",
-  "category": "Text Movement",
-  "show": true
-},
-
-
-
-
-
+    "title": "End of paragraph",
+    "belt": "White",
+    "command": "}",
+    "tutorial": "zB. YT-Link",
+    "category": "Text Movement",
+    "show": true
+  },
+  {
+    "title": "Beginning paragraph",
+    "belt": "White",
+    "command": "{",
+    "tutorial": "zB. YT-Link",
+    "category": "Text Movement",
+    "show": true
+  },
+  {
+    "title": "Beginning sentence",
+    "belt": "White",
+    "command": "(",
+    "tutorial": "zB. YT-Link",
+    "category": "Text Movement",
+    "show": true
+  },
+  {
+    "title": "End of sentence",
+    "belt": "White",
+    "command": ")",
+    "tutorial": "zB. YT-Link",
+    "category": "Text Movement",
+    "show": true
+  },
+  {
+    "title": "Find word over cursor",
+    "belt": "White",
+    "command": "#",
+    "tutorial": "zB. YT-Link",
+    "category": "Text Movement",
+    "show": true
+  },
+  {
+    "title": "Find word under cursor",
+    "belt": "White",
+    "command": "*",
+    "tutorial": "zB. YT-Link",
+    "category": "Text Movement",
+    "show": true
+  },
+  {
+    "title": "Find opposite direction (word)",
+    "belt": "White",
+    "command": "N",
+    "tutorial": "zB. YT-Link",
+    "category": "Text Movement",
+    "show": true
+  },
+  {
+    "title": "Find same direction (word)",
+    "belt": "White",
+    "command": "n",
+    "tutorial": "zB. YT-Link",
+    "category": "Text Movement",
+    "show": true
+  },
+  {
+    "title": "Cursor to middle of screen",
+    "belt": "White",
+    "command": "M",
+    "tutorial": "zB. YT-Link",
+    "category": "Text Movement",
+    "show": true
+  },
   {
     "title": "Enter replace mode",
     "belt": "White",
@@ -335,7 +328,7 @@
     "show": true
   },
   {
-    "title": "Delete Charakter at cursor",
+    "title": "Delete Character at cursor",
     "belt": "Yellow",
     "command": "x",
     "tutorial": "zB. YT-Link",

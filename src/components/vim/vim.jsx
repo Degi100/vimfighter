@@ -13,7 +13,10 @@ const Vim = () => {
         (vimCommand) =>
           vimCommand.title.toLowerCase().includes(searchText.toLowerCase()) ||
           vimCommand.belt.toLowerCase().includes(searchText.toLowerCase()) ||
-          vimCommand.category.toLowerCase().includes(searchText.toLowerCase()) ||
+          vimCommand.category
+            .toLowerCase()
+            .includes(searchText.toLowerCase()) ||
+          vimCommand.command.toLowerCase().includes(searchText.toLowerCase()) ||
           vimCommand.tutorial.toLowerCase().includes(searchText.toLowerCase())
       )
     );
@@ -33,6 +36,8 @@ const Vim = () => {
         autoFocus
       />
 
+      <select className="selectBox" placeholder="test" value="Test" type="text" />
+
       <p className="count-all">
         There are {initialVimCommands.length} commands and{" "}
         {displayVimCommands.filter((vimCommand) => vimCommand.title).length} are
@@ -45,10 +50,10 @@ const Vim = () => {
             <div className={`vimTitle`}>
               <ul>
                 <li className="title_belt">
-                  {e.title} - {e.belt} - {e.category} 
+                  {e.title} - {e.category}
                 </li>
                 <li className="commands">{e.command}</li>
-                <ReactPlayer url={e.tutorial} width="250px" height="auto" />
+                <ReactPlayer url={e.tutorial} />
               </ul>
             </div>
           );

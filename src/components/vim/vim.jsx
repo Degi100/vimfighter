@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import initialVim from "../../data/vim.json";
-import ReactPlayer from "react-player";
+// import ReactPlayer from "react-player";
 import "../../styles/vim.scss";
 
 const initialDistinctCategories = initialVim
@@ -26,7 +26,7 @@ const Vim = () => {
           vimCommand.tutorial.toLowerCase().includes(searchText.toLowerCase())
       )
     );
-  }, [searchText]);
+  }, [searchText, initialVimCommands]);
 
   const changeSearchText = (e) => {
     setSearchText(e.target.value);
@@ -57,7 +57,7 @@ const Vim = () => {
                   {vimCommand.title} - {vimCommand.category}
                 </li>
                 <li className="commands">{vimCommand.command}</li>
-                <ReactPlayer url={vimCommand.tutorial} />
+                {/* <ReactPlayer url={vimCommand.tutorial} /> */}
               </ul>
             </div>
           );

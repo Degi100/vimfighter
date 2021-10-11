@@ -3,6 +3,8 @@ import initialVim from "../../data/vim.json";
 import "../../styles/vim.scss";
 import _ from "lodash";
 import gif from './gif/replaceSingleChar.gif'
+import gif1 from './gif/firstLine_gg.gif'
+
 
 const initialDistinctCategories = _.uniqBy(initialVim, "category").map(
   (vimCommand) => vimCommand.category
@@ -80,6 +82,8 @@ const Vim = () => {
                 <li className="commands">{vimCommand.command}</li>
                 <img src={gif} alt="dummy_gif"/>
                 <li>{vimCommand.tutorial}</li>
+                <img src={gif1} alt="dummy1_gif"/>
+   
               </ul>
             </div>
           );

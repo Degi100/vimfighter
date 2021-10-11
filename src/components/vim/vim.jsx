@@ -3,10 +3,16 @@ import initialVim from "../../data/vim.json";
 import ReactPlayer from "react-player";
 import "../../styles/vim.scss";
 
+const initialDistinctCategories = initialVim
+  .filter((vimCommand) => true)
+  .map((vimCommand) => vimCommand.category);
+console.log(initialDistinctCategories);
+
 const Vim = () => {
   const [searchText, setSearchText] = useState("");
   const [displayVimCommands, setDisplayVimCommands] = useState(initialVim);
   const [initialVimCommands] = useState(initialVim);
+
   useEffect(() => {
     setDisplayVimCommands(
       initialVimCommands.filter(
@@ -20,7 +26,7 @@ const Vim = () => {
           vimCommand.tutorial.toLowerCase().includes(searchText.toLowerCase())
       )
     );
-  }, [searchText]); // eslint-disable-line react-hooks/exhaustive-deps
+  }, [searchText]);
 
   const changeSearchText = (e) => {
     setSearchText(e.target.value);
@@ -36,8 +42,6 @@ const Vim = () => {
         autoFocus
       />
 
-      <select className="selectBox" placeholder="test" value="Test" type="text" />
-
       <p className="count-all">
         There are {initialVimCommands.length} commands and{" "}
         {displayVimCommands.filter((vimCommand) => vimCommand.title).length} are
@@ -45,15 +49,15 @@ const Vim = () => {
       </p>
 
       <div className="vimninjabelts">
-        {displayVimCommands.map((e) => {
+        {displayVimCommands.map((vimCommand, index) => {
           return (
-            <div className={`vimTitle`}>
+            <div className={`vimTitle`} key={index}>
               <ul>
                 <li className="title_belt">
-                  {e.title} - {e.category}
+                  {vimCommand.title} - {vimCommand.category}
                 </li>
-                <li className="commands">{e.command}</li>
-                <ReactPlayer url={e.tutorial} />
+                <li className="commands">{vimCommand.command}</li>
+                <ReactPlayer url={vimCommand.tutorial} />
               </ul>
             </div>
           );

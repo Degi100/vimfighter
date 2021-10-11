@@ -4,9 +4,6 @@ import initialVim from "../../data/vim.json";
 import "../../styles/vim.scss";
 import _ from "lodash";
 
-// const initialDistinctCategories = initialVim
-//   .filter((vimCommand) => true)
-
 const initialDistinctCategories = _.uniqBy(initialVim, "category").map(
   (vimCommand) => vimCommand.category
 );
@@ -44,7 +41,7 @@ const Vim = () => {
           vimCommand.category === currentCategory || currentCategory === ""
       )
     );
-  }, [currentCategory]);
+  }, [currentCategory, initialVimCommands]);
 
   const changeCurrentCategory = (e) => {
     setCurrentCategory(e.target.value);
@@ -62,8 +59,8 @@ const Vim = () => {
 
       <select className="selectBox" onChange={changeCurrentCategory}>
         <option value="">All Categories</option>
-        {initialDistinctCategories.map((category, index) => {
-          return <option value={category}>{category}</option>;
+        {initialDistinctCategories.map((category) => {
+          return <option value={category}>{category} </option>;
         })}
       </select>
 

@@ -78,7 +78,7 @@ const Vim = () => {
                   {vimCommand.title} - {vimCommand.category} - 
                 </li>
                 <li className="commands">{vimCommand.command}</li>
-                <img src={gif} />
+                <img src={gif} alt="dummy_gif"/>
                 <li>{vimCommand.tutorial}</li>
               </ul>
             </div>

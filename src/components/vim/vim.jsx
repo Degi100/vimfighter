@@ -50,6 +50,7 @@ const Vim = () => {
 
   return (
     <div>
+
       <input
         className="inputBox"
         type="text"

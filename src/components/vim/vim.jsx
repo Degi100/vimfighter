@@ -1,13 +1,12 @@
 import React, { useState, useEffect } from "react";
 import initialVim from "../../data/vim.json";
-// import ReactPlayer from "react-player";
 import "../../styles/vim.scss";
 import _ from "lodash";
+import gif from './gif/replaceSingleChar.gif'
 
 const initialDistinctCategories = _.uniqBy(initialVim, "category").map(
   (vimCommand) => vimCommand.category
 );
-console.log(initialDistinctCategories);
 
 const Vim = () => {
   const [searchText, setSearchText] = useState("");
@@ -38,8 +37,7 @@ const Vim = () => {
     setDisplayVimCommands(
       initialVimCommands.filter(
         (vimCommand) =>
-          vimCommand.category === currentCategory || currentCategory === "" 
-          
+          vimCommand.category === currentCategory || currentCategory === ""
       )
     );
   }, [currentCategory, initialVimCommands]);
@@ -77,11 +75,11 @@ const Vim = () => {
             <div className={`vimTitle`} key={index}>
               <ul>
                 <li className="title_belt">
-                  {vimCommand.title} - {vimCommand.category}
+                  {vimCommand.title} - {vimCommand.category} - 
                 </li>
                 <li className="commands">{vimCommand.command}</li>
-
-              {/*  <ReactPlayer url={vimCommand.tutorial} width="250px" height="auto"/> */}
+                <img src={gif} />
+                <li>{vimCommand.tutorial}</li>
               </ul>
             </div>
           );

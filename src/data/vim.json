@@ -492,7 +492,7 @@
     "belt": "Blue",
     "command": "q",
     "tutorial": "zB. YT-Link",
-    "category": "Macro",
+    "category": "Macros",
     "show": true
   },
   {
@@ -500,7 +500,7 @@
     "belt": "Blue",
     "command": "q",
     "tutorial": "zB. YT-Link",
-    "category": "Macro",
+    "category": "Macros",
     "show": true
   },
   {
@@ -508,7 +508,7 @@
     "belt": "Blue",
     "command": "q",
     "tutorial": "zB. YT-Link",
-    "category": "Macro",
+    "category": "Macros",
     "show": true
   },
   {
@@ -516,7 +516,7 @@
     "belt": "Blue",
     "command": "@a",
     "tutorial": "zB. YT-Link",
-    "category": "Macro",
+    "category": "Macros",
     "show": true
   },
   {
@@ -524,7 +524,7 @@
     "belt": "Blue",
     "command": "@@",
     "tutorial": "zB. YT-Link",
-    "category": "Macro",
+    "category": "Macros",
     "show": true
   },
   {
@@ -556,7 +556,7 @@
     "belt": "Orange",
     "command": ":%s/old/new/g",
     "tutorial": "zB. YT-Link",
-    "category": "Search and ReplaceMacro",
+    "category": "Search and Replace",
     "show": true
   },
   {
@@ -564,7 +564,7 @@
     "belt": "Orange",
     "command": ":%s/old/new/gc",
     "tutorial": "zB. YT-Link",
-    "category": "Search and ReplaceMacro",
+    "category": "Search and Replace",
     "show": true
   },
   {

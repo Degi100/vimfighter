@@ -2,16 +2,21 @@ import React, { useState, useEffect } from "react";
 import initialVim from "../../data/vim.json";
 // import ReactPlayer from "react-player";
 import "../../styles/vim.scss";
+import _ from "lodash";
 
-const initialDistinctCategories = initialVim
-  .filter((vimCommand) => true)
-  .map((vimCommand) => vimCommand.category);
+// const initialDistinctCategories = initialVim
+//   .filter((vimCommand) => true)
+
+const initialDistinctCategories = _.uniqBy(initialVim, "category").map(
+  (vimCommand) => vimCommand.category
+);
 console.log(initialDistinctCategories);
 
 const Vim = () => {
   const [searchText, setSearchText] = useState("");
   const [displayVimCommands, setDisplayVimCommands] = useState(initialVim);
   const [initialVimCommands] = useState(initialVim);
+  const [currentCategory, setCurrentCategory] = useState("");
 
   useEffect(() => {
     setDisplayVimCommands(
@@ -32,6 +37,19 @@ const Vim = () => {
     setSearchText(e.target.value);
   };
 
+  useEffect(() => {
+    setDisplayVimCommands(
+      initialVimCommands.filter(
+        (vimCommand) =>
+          vimCommand.category === currentCategory || currentCategory === ""
+      )
+    );
+  }, [currentCategory]);
+
+  const changeCurrentCategory = (e) => {
+    setCurrentCategory(e.target.value);
+  };
+
   return (
     <div>
       <input
@@ -42,13 +60,20 @@ const Vim = () => {
         autoFocus
       />
 
-      <p className="count-all">
-        There are {initialVimCommands.length} commands and{" "}
-        {displayVimCommands.filter((vimCommand) => vimCommand.title).length} are
-        showing.
-      </p>
+      <select onChange={changeCurrentCategory}>
+        <option value="">All Categories</option>
+        {initialDistinctCategories.map((category, index) => {
+          return <option value={category}>{category}</option>;
+        })}
+      </select>
 
       <div className="vimninjabelts">
+        <p className="count-all">
+          There are {initialVimCommands.length} commands and{" "}
+          {displayVimCommands.filter((vimCommand) => vimCommand.title).length}{" "}
+          are showing.
+        </p>
+
         {displayVimCommands.map((vimCommand, index) => {
           return (
             <div className={`vimTitle`} key={index}>
@@ -57,6 +82,7 @@ const Vim = () => {
                   {vimCommand.title} - {vimCommand.category}
                 </li>
                 <li className="commands">{vimCommand.command}</li>
+
                 {/* <ReactPlayer url={vimCommand.tutorial} /> */}
               </ul>
             </div>

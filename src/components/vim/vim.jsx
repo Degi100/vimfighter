@@ -38,7 +38,8 @@ const Vim = () => {
     setDisplayVimCommands(
       initialVimCommands.filter(
         (vimCommand) =>
-          vimCommand.category === currentCategory || currentCategory === ""
+          vimCommand.category === currentCategory || currentCategory === "" 
+          
       )
     );
   }, [currentCategory, initialVimCommands]);

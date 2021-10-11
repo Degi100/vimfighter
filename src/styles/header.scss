@@ -3,10 +3,9 @@
 	padding: 0;
 	margin: 0;
 	background-image: url(../img/logo.png);
-	// border: 1px black solid;
 	background-size: contain;
 	background-repeat: no-repeat;
 	position: relative;
-	width: clamp(20rem, 100vw, 80rem);
-	height: clamp(5rem, 10vh, 15rem);
+	width: clamp(10rem, 100vw, 80rem);
+	height: clamp(5rem, 10vw, 15rem);
 }

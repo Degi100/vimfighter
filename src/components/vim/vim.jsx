@@ -80,7 +80,7 @@ const Vim = () => {
                 </li>
                 <li className="commands">{vimCommand.command}</li>
 
-                {/* <ReactPlayer url={vimCommand.tutorial} /> */}
+              {/*  <ReactPlayer url={vimCommand.tutorial} width="250px" height="auto"/> */}
               </ul>
             </div>
           );

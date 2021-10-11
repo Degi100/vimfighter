@@ -60,7 +60,7 @@ const Vim = () => {
         autoFocus
       />
 
-      <select onChange={changeCurrentCategory}>
+      <select className="selectBox" onChange={changeCurrentCategory}>
         <option value="">All Categories</option>
         {initialDistinctCategories.map((category, index) => {
           return <option value={category}>{category}</option>;

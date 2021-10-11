@@ -1,31 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
 
 .vimninjabelts {
-  border-top: 1px solid;
-  padding-top: 2rem;
   background-color: rgb(201, 223, 216);
+  border-radius: 15px;
+  padding: 5px;
+  width: 30rem;
+  .count-all {
+    display: flex;
+justify-content: center;
+  }
   .vimTitle {
-
     ul {
-      font-family: 'Share Tech Mono', monospace;
       display: flex;
       justify-content: center;
       flex-direction: column;
+      font-family: "Share Tech Mono", monospace;
+      padding: 5px;
       li {
         list-style: none;
         border: 1px solid black;
       }
-      
+
       .title_belt {
         background-color: rgb(4, 153, 17);
-        padding: 3px;
+        padding: 5px;
       }
-      
+
       .commands {
         background-color: rgb(177, 177, 177);
         font-weight: bold;
         text-align: center;
         font-size: 22px;
+        padding: 5px;
       }
     }
   }
@@ -35,5 +41,9 @@
   padding: 5px;
   border-radius: 20px;
   width: 250px;
-  margin: 10px;
+  margin: 15px;
+}
+
+.selectBox {
+  position: relative;
 }

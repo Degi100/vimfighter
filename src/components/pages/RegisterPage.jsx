@@ -8,8 +8,8 @@ const Register = () => {
       <div className="panel">
         {showVimCommands.map((vimCommand, index) => {
           return (
-            <ul >
-              <div className="content" key={index} >
+            <ul key={index}>
+              <div className="content"  >
                 <li className="vim-Category">{vimCommand.category}</li>
                 <li className="vim-title">{vimCommand.title}</li>
                 <li className="vim-commands">{vimCommand.command}</li>

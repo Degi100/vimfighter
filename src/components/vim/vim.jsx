@@ -22,8 +22,7 @@ const Vim = () => {
           vimCommand.category
             .toLowerCase()
             .includes(searchText.toLowerCase()) ||
-          vimCommand.command.toLowerCase().includes(searchText.toLowerCase()) ||
-          vimCommand.tutorial.toLowerCase().includes(searchText.toLowerCase())
+          vimCommand.command.toLowerCase().includes(searchText.toLowerCase()) 
       )
     );
   }, [searchText, initialVimCommands]);
@@ -77,8 +76,7 @@ const Vim = () => {
                   {vimCommand.title} - {vimCommand.category} -
                 </li>
                 <li className="commands">{vimCommand.command}</li>
-                <img src={`gif/${vimCommand.tutorialgif}`} />
-                <li>{vimCommand.tutorial}</li>
+                <img src={`gif/${vimCommand.tutorialgif}`} alt="tutorial" />
               </ul>
             </div>
           );

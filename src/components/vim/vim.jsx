@@ -50,8 +50,8 @@ const Vim = () => {
 
       <select className="selectBox" onChange={changeCurrentCategory}>
         <option value="">All Categories</option>
-        {initialDistinctCategories.map((category) => {
-          return <option value={category}>{category} </option>;
+        {initialDistinctCategories.map((category, index) => {
+          return <option key={index} value={category}>{category} </option>;
         })}
       </select>
 

@@ -3,7 +3,7 @@
     "title": "Replace Single Character",
     "belt": "White",
     "command": "r",
-    "tutorial": "replaceSingleChar.gif",
+    "tutorialgif": "replaceSingleChar.gif",
     "category": "Editing",
     "show": true
   },
@@ -11,7 +11,7 @@
     "title": "Jump to first line",
     "belt": "White",
     "command": "gg",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Text Movement",
     "show": true
   },
@@ -19,7 +19,7 @@
     "title": "Jump to last line",
     "belt": "White",
     "command": "g",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Text Movement",
     "show": true
   },
@@ -27,7 +27,7 @@
     "title": "Go to line",
     "belt": "White",
     "command": "#G",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Text Movement",
     "show": true
   },
@@ -35,7 +35,7 @@
     "title": "Cursor top of the Screen",
     "belt": "White",
     "command": "H",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Text Movement",
     "show": true
   },
@@ -43,7 +43,7 @@
     "title": "Cursor bottom of the Screen",
     "belt": "White",
     "command": "L",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Text Movement",
     "show": true
   },
@@ -51,7 +51,7 @@
     "title": "End of paragraph",
     "belt": "White",
     "command": "}",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "endofparagraph_curly.gif",
     "category": "Text Movement",
     "show": true
   },
@@ -59,7 +59,7 @@
     "title": "Beginning paragraph",
     "belt": "White",
     "command": "{",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Text Movement",
     "show": true
   },
@@ -67,7 +67,7 @@
     "title": "Beginning sentence",
     "belt": "White",
     "command": "(",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Text Movement",
     "show": true
   },
@@ -75,7 +75,7 @@
     "title": "End of sentence",
     "belt": "White",
     "command": ")",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Text Movement",
     "show": true
   },
@@ -83,7 +83,7 @@
     "title": "Find word over cursor",
     "belt": "White",
     "command": "#",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Text Movement",
     "show": true
   },
@@ -91,7 +91,7 @@
     "title": "Find word under cursor",
     "belt": "White",
     "command": "*",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Text Movement",
     "show": true
   },
@@ -99,7 +99,7 @@
     "title": "Find opposite direction (word)",
     "belt": "White",
     "command": "N",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Text Movement",
     "show": true
   },
@@ -107,7 +107,7 @@
     "title": "Find same direction (word)",
     "belt": "White",
     "command": "n",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Text Movement",
     "show": true
   },
@@ -115,7 +115,7 @@
     "title": "Cursor to middle of screen",
     "belt": "White",
     "command": "M",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Text Movement",
     "show": true
   },
@@ -123,7 +123,7 @@
     "title": "Enter replace mode",
     "belt": "White",
     "command": "R",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Editing",
     "show": true
   },
@@ -131,7 +131,7 @@
     "title": "Join line below to current one with one space in between them",
     "belt": "White",
     "command": "J",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Editing",
     "show": true
   },
@@ -139,7 +139,7 @@
     "title": "Join line below to current one with no spaces",
     "belt": "White",
     "command": "gJ",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Editing",
     "show": true
   },
@@ -147,7 +147,7 @@
     "title": "Change (replace) entire line",
     "belt": "White",
     "command": "cc",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Editing",
     "show": true
   },
@@ -155,7 +155,7 @@
     "title": "Change (replace) to the end of line",
     "belt": "White",
     "command": "C",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Editing",
     "show": true
   },
@@ -163,7 +163,7 @@
     "title": "Change inner word",
     "belt": "White",
     "command": "ciw",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Editing",
     "show": true
   },
@@ -171,7 +171,7 @@
     "title": "Change (replace) to end of word",
     "belt": "White",
     "command": "cw",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Editing",
     "show": true
   },
@@ -179,7 +179,7 @@
     "title": "Delete character and substitute text",
     "belt": "White",
     "command": "s",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Editing",
     "show": true
   },
@@ -187,7 +187,7 @@
     "title": "Delete line and substitute text",
     "belt": "White",
     "command": "S",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Editing",
     "show": true
   },
@@ -195,7 +195,7 @@
     "title": "Transpose two letters",
     "belt": "White",
     "command": "xp",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Editing",
     "show": true
   },
@@ -203,7 +203,7 @@
     "title": "Undo",
     "belt": "White",
     "command": "u",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Editing",
     "show": true
   },
@@ -211,7 +211,7 @@
     "title": "Redo",
     "belt": "White",
     "command": "^r",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Editing",
     "show": true
   },
@@ -219,7 +219,7 @@
     "title": "Repeat last command",
     "belt": "White",
     "command": ".",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Editing",
     "show": true
   },
@@ -227,7 +227,7 @@
     "title": "Yank single line",
     "belt": "Yellow",
     "command": "yy/Y",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Cut and paste",
     "show": true
   },
@@ -235,7 +235,7 @@
     "title": "Yank # of lines",
     "belt": "Yellow",
     "command": "#Y",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Cut and paste",
     "show": true
   },
@@ -243,7 +243,7 @@
     "title": "Yank from curser to start of the next word",
     "belt": "Yellow",
     "command": "yw",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Cut and paste",
     "show": true
   },
@@ -251,7 +251,7 @@
     "title": "Yank $ of lines with movement (hjkl)",
     "belt": "Yellow",
     "command": "y#m",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Cut and paste",
     "show": true
   },
@@ -259,7 +259,7 @@
     "title": "Yank current line into named buffer a",
     "belt": "Yellow",
     "command": "ayy",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Cut and paste",
     "show": true
   },
@@ -267,7 +267,7 @@
     "title": "Put (paste) after cursor",
     "belt": "Yellow",
     "command": "p",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Cut and paste",
     "show": true
   },
@@ -275,7 +275,7 @@
     "title": "put (paste) before the cursor",
     "belt": "Yellow",
     "command": "P",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Cut and paste",
     "show": true
   },
@@ -283,7 +283,7 @@
     "title": "Put text from buffer a before cursor",
     "belt": "Yellow",
     "command": "aP",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Cut and paste",
     "show": true
   },
@@ -291,7 +291,7 @@
     "title": "Delete current line",
     "belt": "Yellow",
     "command": "dd",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Cut and paste",
     "show": true
   },
@@ -299,7 +299,7 @@
     "title": "Delete # of lines with downward drom cursor",
     "belt": "Yellow",
     "command": "#dd",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Cut and paste",
     "show": true
   },
@@ -307,7 +307,7 @@
     "title": "Delete # of lines with movement",
     "belt": "Yellow",
     "command": "#dm",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Cut and paste",
     "show": true
   },
@@ -315,7 +315,7 @@
     "title": "Delete to end of line",
     "belt": "Yellow",
     "command": "D",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Cut and paste",
     "show": true
   },
@@ -323,7 +323,7 @@
     "title": "Delete word",
     "belt": "Yellow",
     "command": "Dw",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Cut and paste",
     "show": true
   },
@@ -331,7 +331,7 @@
     "title": "Delete Character at cursor",
     "belt": "Yellow",
     "command": "x",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Cut and paste",
     "show": true
   },
@@ -339,7 +339,7 @@
     "title": "Delete backwards from cursor",
     "belt": "Yellow",
     "command": "X",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Cut and paste",
     "show": true
   },
@@ -347,7 +347,7 @@
     "title": "Cursor line to center of screen",
     "belt": "Green",
     "command": "zz",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Screen Movement",
     "show": true
   },
@@ -355,7 +355,7 @@
     "title": "Cursor line to top of scren",
     "belt": "Green",
     "command": "ct",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Screen Movement",
     "show": true
   },
@@ -363,7 +363,7 @@
     "title": "Cursor line to bottom of screen",
     "belt": "Green",
     "command": "zb",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Screen Movement",
     "show": true
   },
@@ -371,7 +371,7 @@
     "title": "Move screen forward one line",
     "belt": "Green",
     "command": "^e",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Screen Movement",
     "show": true
   },
@@ -379,7 +379,7 @@
     "title": "Move screen backward one line",
     "belt": "Green",
     "command": "^f",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Screen Movement",
     "show": true
   },
@@ -387,7 +387,7 @@
     "title": "Move forward half a screen",
     "belt": "Green",
     "command": "^u",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Screen Movement",
     "show": true
   },
@@ -395,7 +395,7 @@
     "title": "Move backward half a screen",
     "belt": "Green",
     "command": "^d",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Screen Movement",
     "show": true
   },
@@ -403,7 +403,7 @@
     "title": "Move forward a full screen",
     "belt": "Green",
     "command": "^f",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Screen Movement",
     "show": true
   },
@@ -411,7 +411,7 @@
     "title": "Move backward a full screen",
     "belt": "Green",
     "command": "^b",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Screen Movement",
     "show": true
   },
@@ -419,7 +419,7 @@
     "title": "Insert before the cursor",
     "belt": "Red",
     "command": "i",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Insert Mode",
     "show": true
   },
@@ -427,7 +427,7 @@
     "title": "Insert at the beginning of line",
     "belt": "Red",
     "command": "I",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Insert Mode",
     "show": true
   },
@@ -435,7 +435,7 @@
     "title": "Append after the cursor",
     "belt": "Red",
     "command": "a",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Insert Mode",
     "show": true
   },
@@ -443,7 +443,7 @@
     "title": "Append at the end of the line",
     "belt": "Red",
     "command": "A",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Insert Mode",
     "show": true
   },
@@ -451,7 +451,7 @@
     "title": "Open new line below the current one",
     "belt": "Red",
     "command": "o",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Insert Mode",
     "show": true
   },
@@ -459,7 +459,7 @@
     "title": "Open new line above the current one",
     "belt": "Red",
     "command": "O",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Insert Mode",
     "show": true
   },
@@ -467,7 +467,7 @@
     "title": "Append at the end of the word",
     "belt": "Red",
     "command": "ea",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Insert Mode",
     "show": true
   },
@@ -475,7 +475,7 @@
     "title": "Insert text # times",
     "belt": "Red",
     "command": "#gI",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Insert Mode",
     "show": true
   },
@@ -483,7 +483,7 @@
     "title": "Exit insert mode",
     "belt": "Red",
     "command": "ESC",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Insert Mode",
     "show": true
   },
@@ -491,7 +491,7 @@
     "title": "Record macro at register 'a' ",
     "belt": "Blue",
     "command": "q",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Macros",
     "show": true
   },
@@ -499,7 +499,7 @@
     "title": "Stop recording macro",
     "belt": "Blue",
     "command": "q",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Macros",
     "show": true
   },
@@ -507,7 +507,7 @@
     "title": "record macro at register 'a' ",
     "belt": "Blue",
     "command": "q",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Macros",
     "show": true
   },
@@ -515,7 +515,7 @@
     "title": "Run macro at register 'a' ",
     "belt": "Blue",
     "command": "@a",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Macros",
     "show": true
   },
@@ -523,7 +523,7 @@
     "title": "Rerun last macro",
     "belt": "Blue",
     "command": "@@",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Macros",
     "show": true
   },
@@ -531,7 +531,7 @@
     "title": "Search for n ",
     "belt": "Orange",
     "command": "/n",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Search and Replace",
     "show": true
   },
@@ -539,7 +539,7 @@
     "title": "Search for n backwards",
     "belt": "Orange",
     "command": "?n",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Search and Replace",
     "show": true
   },
@@ -547,7 +547,7 @@
     "title": "Non-alphanumeric chars are interpreted as special regex symbols",
     "belt": "Orange",
     "command": "/vn",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Search and Replace",
     "show": true
   },
@@ -555,7 +555,7 @@
     "title": "Replace all old with new throughout file ",
     "belt": "Orange",
     "command": ":%s/old/new/g",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Search and Replace",
     "show": true
   },
@@ -563,7 +563,7 @@
     "title": "Replace all old with confirmations ",
     "belt": "Orange",
     "command": ":%s/old/new/gc",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Search and Replace",
     "show": true
   },
@@ -571,7 +571,7 @@
     "title": "Mark current position as c ",
     "belt": "Brown",
     "command": "mc",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Mark position",
     "show": true
   },
@@ -579,7 +579,7 @@
     "title": "Move cursor to c ",
     "belt": "Brown",
     "command": "`c",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Mark position",
     "show": true
   },
@@ -587,7 +587,7 @@
     "title": "Return to previous context",
     "belt": "Brown",
     "command": "``",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Mark position",
     "show": true
   },
@@ -595,7 +595,7 @@
     "title": "Move to the beginning of the line containig mark c",
     "belt": "Brown",
     "command": "'c",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Mark position",
     "show": true
   },
@@ -603,7 +603,7 @@
     "title": "List of marks",
     "belt": "Brown",
     "command": ":marks",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Mark position",
     "show": true
   },
@@ -611,7 +611,7 @@
     "title": "Start visual mode, mark lines, then perform a command (like yank)",
     "belt": "Purple",
     "command": "v",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Visual Mode",
     "show": true
   },
@@ -619,7 +619,7 @@
     "title": "Start linewise visual mode",
     "belt": "Purple",
     "command": "V",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Visual Mode",
     "show": true
   },
@@ -627,7 +627,7 @@
     "title": "move to other end of marked area",
     "belt": "Purple",
     "command": "o",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Visual Mode",
     "show": true
   },
@@ -635,7 +635,7 @@
     "title": "Start visual block mode",
     "belt": "Purple",
     "command": "^v",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Visual Mode",
     "show": true
   },
@@ -643,7 +643,7 @@
     "title": "Move to other corner of a block",
     "belt": "Purple",
     "command": "0",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Visual Mode",
     "show": true
   },
@@ -651,7 +651,7 @@
     "title": "Mark a word",
     "belt": "Purple",
     "command": "aw",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Visual Mode",
     "show": true
   },
@@ -659,7 +659,7 @@
     "title": "A block with ()/{}",
     "belt": "Purple",
     "command": "ab/B",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Visual Mode",
     "show": true
   },
@@ -667,7 +667,7 @@
     "title": "Inner block with ()/{}",
     "belt": "Purple",
     "command": "ib/B",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Visual Mode",
     "show": true
   },
@@ -675,7 +675,7 @@
     "title": "Exit visual mode",
     "belt": "Purple",
     "command": "ESC",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Visual Mode",
     "show": true
   },
@@ -683,7 +683,7 @@
     "title": "Show registers content",
     "belt": "Pink",
     "command": ":reg",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Registers",
     "show": true
   },
@@ -691,7 +691,7 @@
     "title": "Yank into register x",
     "belt": "Pink",
     "command": " -doublelcode''- xy ",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Registers",
     "show": true
   },
@@ -699,7 +699,7 @@
     "title": "Past contents of a register x",
     "belt": "Pink",
     "command": " -doublelcode''- xp ",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Registers",
     "show": true
   },
@@ -707,7 +707,7 @@
     "title": "Tip",
     "belt": "Pink",
     "command": "Register 0 always contains the value of the last yank command",
-    "tutorial": "",
+    "tutorialgif": "",
     "category": "Registers",
     "show": true
   },
@@ -715,7 +715,7 @@
     "title": "Write (save) and quit file",
     "belt": "Black",
     "command": ":wq OR ZZ",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Miscellaneous commands",
     "show": true
   },
@@ -723,7 +723,7 @@
     "title": "Write file overriding protection",
     "belt": "Black",
     "command": ":w!",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Miscellaneous commands",
     "show": true
   },
@@ -731,7 +731,7 @@
     "title": "quit file (discarding any changes)",
     "belt": "Black",
     "command": ":q!",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Miscellaneous commands",
     "show": true
   },
@@ -739,7 +739,7 @@
     "title": "Command give UNIX command",
     "belt": "Black",
     "command": ":!",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Miscellaneous commands",
     "show": true
   },
@@ -747,7 +747,7 @@
     "title": "Read file contents into curr. file",
     "belt": "Black",
     "command": ":r file",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Miscellaneous commands",
     "show": true
   },
@@ -755,7 +755,7 @@
     "title": "Define keystroke x as command sequence",
     "belt": "Black",
     "command": ":map x <s>",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Miscellaneous commands",
     "show": true
   },
@@ -763,7 +763,7 @@
     "title": "Disable the map for x",
     "belt": "Black",
     "command": ":unmap x",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Miscellaneous commands",
     "show": true
   },
@@ -771,7 +771,7 @@
     "title": "Abbreviate p as a; when a is typed in insert mode, it expends to full words or phrases (p)",
     "belt": "Black",
     "command": ":ab a p",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Miscellaneous commands",
     "show": true
   },
@@ -779,7 +779,7 @@
     "title": "Disable abbreviation for a",
     "belt": "Black",
     "command": ":unab a",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Miscellaneous commands",
     "show": true
   },
@@ -787,7 +787,7 @@
     "title": "Dislpay options set by user; if all is included, show default options as well",
     "belt": "Black",
     "command": ":set [all]",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Miscellaneous commands",
     "show": true
   },
@@ -795,7 +795,7 @@
     "title": "Activate option o",
     "belt": "Black",
     "command": ":set o=v",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Miscellaneous commands",
     "show": true
   },
@@ -803,7 +803,7 @@
     "title": "Deactivate option U",
     "belt": "Black",
     "command": ":set noU",
-    "tutorial": "zB. YT-Link",
+    "tutorialgif": "",
     "category": "Miscellaneous commands",
     "show": true
   }

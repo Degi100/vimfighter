@@ -11,7 +11,7 @@
     "title": "Jump to first line",
     "belt": "White",
     "command": "gg",
-    "tutorialgif": "",
+    "tutorialgif": "firstLine_gg.gif",
     "category": "Text Movement",
     "show": true
   },
@@ -27,7 +27,7 @@
     "title": "Go to line",
     "belt": "White",
     "command": "#G",
-    "tutorialgif": "",
+    "tutorialgif": "lastLine_hashg.gif",
     "category": "Text Movement",
     "show": true
   },
@@ -35,7 +35,7 @@
     "title": "Cursor top of the Screen",
     "belt": "White",
     "command": "H",
-    "tutorialgif": "",
+    "tutorialgif": "cursorTop_H",
     "category": "Text Movement",
     "show": true
   },

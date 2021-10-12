@@ -1,7 +1,7 @@
 import showVimCommands from "../../data/vim.json";
 import "../../styles/register.scss";
 
-const RegisterPage = () => {
+const Register = () => {
   return (
     <div>
       <h2>Register</h2>
@@ -9,7 +9,7 @@ const RegisterPage = () => {
         {showVimCommands.map((vimCommand, index) => {
           return (
             <ul>
-              <div className="content">
+              <div className="content" key={index}>
                 <li className="vim-Category">{vimCommand.category}</li>
                 <li className="vim-title">{vimCommand.title}</li>
                 <li className="vim-commands">{vimCommand.command}</li>
@@ -22,4 +22,4 @@ const RegisterPage = () => {
   );
 };
 
-export default RegisterPage;
+export default Register;

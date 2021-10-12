@@ -14,31 +14,25 @@ const Vim = () => {
   const [currentCategory, setCurrentCategory] = useState("");
 
   useEffect(() => {
+    const searchTextIsOkay = (vimCommand) => {
+      return (
+        vimCommand.title.toLowerCase().includes(searchText.toLowerCase()) ||
+        vimCommand.belt.toLowerCase().includes(searchText.toLowerCase()) ||
+        vimCommand.category.toLowerCase().includes(searchText.toLowerCase()) ||
+        vimCommand.command.toLowerCase().includes(searchText.toLowerCase())
+      );
+    };
+    const currentCategoryIsOkay = (vimCommand) => {
+      return vimCommand.category === currentCategory || currentCategory === "";
+    };
     setDisplayVimCommands(
-      initialVimCommands.filter(
-        (vimCommand) =>
-          vimCommand.title.toLowerCase().includes(searchText.toLowerCase()) ||
-          vimCommand.belt.toLowerCase().includes(searchText.toLowerCase()) ||
-          vimCommand.category
-            .toLowerCase()
-            .includes(searchText.toLowerCase()) ||
-          vimCommand.command.toLowerCase().includes(searchText.toLowerCase()) 
-      )
+      initialVimCommands.filter((vimCommand) => searchTextIsOkay(vimCommand) && currentCategoryIsOkay(vimCommand)) 
     );
-  }, [searchText, initialVimCommands]);
+  }, [searchText, initialVimCommands, currentCategory]);
 
   const changeSearchText = (e) => {
     setSearchText(e.target.value);
   };
-
-  useEffect(() => {
-    setDisplayVimCommands(
-      initialVimCommands.filter(
-        (vimCommand) =>
-          vimCommand.category === currentCategory || currentCategory === ""
-      )
-    );
-  }, [currentCategory, initialVimCommands]);
 
   const changeCurrentCategory = (e) => {
     setCurrentCategory(e.target.value);

@@ -1,11 +1,12 @@
+.header-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
 
-.header-bg{
-	padding: 0;
-	margin: 0;
-	background-image: url(../img/logo.png);
-	background-size: contain;
-	background-repeat: no-repeat;
-	position: relative;
-	width: clamp(10rem, 100vw, 80rem);
-	height: clamp(10rem, 15vw, 10rem);
+  img {
+    height: 300px;
+    object-fit: cover;
+    object-position: bottom;
+  }
 }

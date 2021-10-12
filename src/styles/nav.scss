@@ -1,16 +1,18 @@
 nav {
-  background-color: rgba(255, 255, 255, 0.657);
+  // background-color: rgba(255, 255, 255, 0.657);
   padding: 10px;
   ul {
     display: flex;
-    justify-content: left;
-    align-items: center;
+    justify-content: center;
 
     li {
       display: flex;
       flex-direction: row;
-      margin-left: 2%;
+      justify-content: space-between;
       a {
+        display: flex;
+        justify-content: space-between;
+        padding: 15px;
         color: rgb(0, 0, 0);
         font-weight: bold;
         text-decoration: none;
@@ -23,4 +25,6 @@ nav {
 a:hover {
   // text-decoration: underline;
   color: rgb(255, 255, 255);
+  background-color: rgb(125, 197, 77);
+  padding: 15px;
 }

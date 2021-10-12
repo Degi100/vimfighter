@@ -1,6 +1,7 @@
 import showVimCommands from "../../data/vim.json";
 import "../../styles/register.scss";
 
+
 const Register = () => {
   return (
     <div>

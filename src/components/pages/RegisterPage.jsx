@@ -10,7 +10,7 @@ const RegisterPage = () => {
           return (
             <ul>
               <div className="content">
-                
+                <li className="vim-Category">{vimCommand.category}</li>
                 <li className="vim-title">{vimCommand.title}</li>
                 <li className="vim-commands">{vimCommand.command}</li>
               </div>

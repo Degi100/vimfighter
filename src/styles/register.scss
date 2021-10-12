@@ -11,8 +11,9 @@
         padding: 10px 30px 30px 30px;
         border: 1px solid #999;
         border-radius: 10px;
+		font-weight: bold;
     }
-     
+	
     div.intro {
         font-style: italic;
         font-size: 1.3em;
@@ -23,6 +24,10 @@
         margin-top: 0;
      
     }
+
+.vim-commands {
+	font-weight: bold;
+}	
      
     @media screen and (max-width: 1023px) {
         div.content {

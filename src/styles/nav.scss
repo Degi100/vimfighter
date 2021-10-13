@@ -1,29 +1,26 @@
 nav {
-  // background-color: rgba(255, 255, 255, 0.657);
-  padding: 10px;
   ul {
     display: flex;
     justify-content: center;
 
     li {
       display: flex;
-      flex-direction: row;
-      justify-content: space-between;
+      justify-content: center;
+      width: 96.5px;
+      align-items: center;
       a {
-        display: flex;
-        justify-content: space-between;
+        width: 96.5px;
         padding: 15px;
         color: rgb(0, 0, 0);
         font-weight: bold;
         text-decoration: none;
-        font-size: clamp(1.5rem, 1.6vw, 1.5px);
+        text-align: center;
       }
     }
   }
 }
 
 a:hover {
-  // text-decoration: underline;
   color: rgb(255, 255, 255);
   background-color: rgb(125, 197, 77);
   padding: 15px;

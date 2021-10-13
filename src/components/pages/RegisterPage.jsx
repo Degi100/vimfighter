@@ -5,7 +5,6 @@ import "../../styles/register.scss";
 const Register = () => {
   return (
     <div>
-      <h2>Register</h2>
       <div className="panel">
         {showVimCommands.map((vimCommand, index) => {
           return (

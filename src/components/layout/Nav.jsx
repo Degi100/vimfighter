@@ -2,8 +2,6 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import HomePage from "../pages/HomePage";
 import RegisterPage from "../pages/RegisterPage";
 import VimPage from "../pages/VimPage";
-import { SiVim } from "react-icons/si";
-import { GiPuzzle } from "react-icons/gi"
 import "../../styles/nav.scss";
 
 function Navigation() {
@@ -14,14 +12,14 @@ function Navigation() {
           <ul>
             <li>
               <Link to="/">
-                <SiVim /> Search
+              Search
               </Link>
             </li>
             <li>
-              <Link to="/register"><div className="react-icon"><GiPuzzle /> Register </div></Link>
+              <Link to="/register"><div className="react-icon"> Register </div></Link>
             </li>
             <li>
-              <Link to="/vim"><GiPuzzle /> Vim</Link>
+              <Link to="/vim"> Vim</Link>
             </li>
           </ul>
         </nav>

@@ -1,22 +1,28 @@
 body {
+  background-repeat: no-repeat;
+  background-position: cover;
   background: rgb(0, 0, 0);
   background: radial-gradient(
     circle,
-    rgba(0, 0, 0, 0.9528011888349089) -90%,
-    rgb(10, 101, 153) 87%
+    rgba(167, 167, 167, 0.953) -90%,
+    rgb(43, 85, 76) 87%
   );
 }
-
-.container {
+.container-full {
   display: flex;
-  flex-direction: column;
-  justify-content:space-between;
-  padding-left: 2rem;
-}
+  justify-content: center;
+  align-items: center;
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 2rem;
+  }
 
-.scrollUp{
-  display: flex;
-  justify-content:center;
-  align-items:center;
-  background-color:red;
+  .scrollUp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+  }
 }

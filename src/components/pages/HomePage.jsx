@@ -4,11 +4,13 @@ import "../../styles/main.scss";
 const HomePage = () => {
   return (
     <div>
-      <div className="scroll">
-        <ScrollToTop />
-      </div>
-      <div className="container">
-        <Vim />
+      <div className="container-full">
+        <div className="scroll">
+          <ScrollToTop />
+        </div>
+        <div className="container">
+          <Vim />
+        </div>
       </div>
     </div>
   );

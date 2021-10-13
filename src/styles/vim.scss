@@ -13,11 +13,12 @@
     justify-content: center;
   }
   .vimTitle {
-    img:hover {
-      transform: scale(1.8);
-      border: 1px white solid;
-      border-radius: 7px;
-
+    @media screen and (min-width: 1023px) {
+      img:hover {
+        transform: scale(1.8);
+        border: 1px white solid;
+        border-radius: 7px;
+      }
     }
     ul {
       display: flex;

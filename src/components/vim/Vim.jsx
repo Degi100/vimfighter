@@ -70,7 +70,7 @@ const Vim = () => {
                   {vimCommand.title} - {vimCommand.category} -
                 </li>
                 <li className="commands">{vimCommand.command}</li>
-                <img src={`gif/${vimCommand.tutorialgif}`} alt="tutorial" />
+                <img src={`gif/${vimCommand.tutorialgif}`} alt="tutorial animation" />
               </ul>
             </div>
           );

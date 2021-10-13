@@ -13,13 +13,6 @@
     justify-content: center;
   }
   .vimTitle {
-    @media screen and (min-width: 600px) {
-      img:hover {
-        transform: scale(1.8);
-        border: 1px white solid;
-        border-radius: 7px;
-      }
-    }
     ul {
       display: flex;
       justify-content: center;
@@ -30,18 +23,43 @@
         list-style: none;
         border: 1px solid black;
       }
-
+      
       .title_belt {
         background-color: rgb(44, 151, 76);
         padding: 5px;
       }
-
+      
       .commands {
         background-color: rgb(177, 177, 177);
         font-weight: bold;
         text-align: center;
         font-size: 22px;
         padding: 5px;
+      }
+      @media screen and (max-width: 599px) {
+        img:hover {
+          transform: scale(1.1);
+          border: 1px white solid;
+          border-radius: 7px;
+          margin-top: 5px;
+          cursor: -moz-zoom-in;
+          cursor: -webkit-zoom-in;
+          cursor: zoom-in;
+        }
+      }
+      @media screen and (min-width: 600px) {
+        img:hover {
+          transform: scale(1.8);
+          border: 1px white solid;
+          border-radius: 7px;
+          margin: 60px;
+          cursor: -moz-zoom-in;
+          cursor: -webkit-zoom-in;
+          cursor: zoom-in;
+        }
+        img:active {
+          transform: scale(4);
+        }
       }
     }
   }

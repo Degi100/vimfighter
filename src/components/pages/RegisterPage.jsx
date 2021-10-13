@@ -1,23 +1,20 @@
 import showVimCommands from "../../data/vim.json";
 import "../../styles/register.scss";
 
-
 const Register = () => {
   return (
-    <div>
-      <div className="panel">
+    <div className="panel">
+      <ul>
         {showVimCommands.map((vimCommand, index) => {
           return (
-            <ul key={index}>
-              <div className="content"  >
-                <li className="vim-Category">{vimCommand.category}</li>
-                <li className="vim-title">{vimCommand.title}</li>
-                <li className="vim-commands">{vimCommand.command}</li>
-              </div>
-            </ul>
+            <li className="content" key={index}>
+              <p className="vim-category">{vimCommand.category}</p>
+              <p className="vim-title">{vimCommand.title}</p>
+              <p className="vim-commands">{vimCommand.command}</p>
+            </li>
           );
         })}
-      </div>
+      </ul>
     </div>
   );
 };

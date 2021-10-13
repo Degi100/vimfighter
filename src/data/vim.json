@@ -1,13 +1,5 @@
 [
   {
-    "title": "Replace Single Character",
-    "belt": "White",
-    "command": "r",
-    "tutorialgif": "replaceSingleChar.gif",
-    "category": "Editing",
-    "show": true
-  },
-  {
     "title": "Jump to first line",
     "belt": "White",
     "command": "gg",
@@ -117,6 +109,14 @@
     "command": "M",
     "tutorialgif": "underconstruction.png",
     "category": "Text Movement",
+    "show": true
+  },
+  {
+    "title": "Replace Single Character",
+    "belt": "White",
+    "command": "r",
+    "tutorialgif": "replaceSingleChar.gif",
+    "category": "Editing",
     "show": true
   },
   {

@@ -45,7 +45,6 @@ const Vim = () => {
         type="text"
         placeholder="Search for Command"
         onChange={changeSearchText}
-        autoFocus
       />
 
       <select className="selectBox" onChange={changeCurrentCategory}>

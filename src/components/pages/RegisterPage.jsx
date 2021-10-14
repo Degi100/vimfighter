@@ -1,4 +1,5 @@
 import showVimCommands from "../../data/vim.json";
+import ScrollToTop from '../layout/ScrollToTop'
 import "../../styles/register.scss";
 
 const Register = () => {
@@ -20,6 +21,7 @@ const Register = () => {
           );
         })}
       </ul>
+      <ScrollToTop />
     </div>
   );
 };

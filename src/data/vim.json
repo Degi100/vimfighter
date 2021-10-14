@@ -690,7 +690,7 @@
   {
     "title": "Yank into register x",
     "belt": "Pink",
-    "command": " -doublelcode''- xy ",
+    "command": "\"xy",
     "tutorialgif": "underconstruction.png",
     "category": "Registers",
     "show": true
@@ -698,7 +698,7 @@
   {
     "title": "Past contents of a register x",
     "belt": "Pink",
-    "command": " -doublelcode''- xp ",
+    "command": " \"xp ",
     "tutorialgif": "underconstruction.png",
     "category": "Registers",
     "show": true

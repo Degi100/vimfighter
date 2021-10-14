@@ -26,7 +26,10 @@ const Vim = () => {
       return vimCommand.category === currentCategory || currentCategory === "";
     };
     setDisplayVimCommands(
-      initialVimCommands.filter((vimCommand) => searchTextIsOkay(vimCommand) && currentCategoryIsOkay(vimCommand)) 
+      initialVimCommands.filter(
+        (vimCommand) =>
+          searchTextIsOkay(vimCommand) && currentCategoryIsOkay(vimCommand)
+      )
     );
   }, [searchText, initialVimCommands, currentCategory]);
 
@@ -50,7 +53,11 @@ const Vim = () => {
       <select className="selectBox" onChange={changeCurrentCategory}>
         <option value="">All Categories</option>
         {initialDistinctCategories.map((category, index) => {
-          return <option key={index} value={category}>{category} </option>;
+          return (
+            <option key={index} value={category}>
+              {category}{" "}
+            </option>
+          );
         })}
       </select>
 
@@ -69,7 +76,10 @@ const Vim = () => {
                   {vimCommand.title} - {vimCommand.category} -
                 </li>
                 <li className="commands">{vimCommand.command}</li>
-                <img src={`gif/${vimCommand.tutorialgif}`} alt="tutorial animation" />
+                <img
+                  src={`gif/${vimCommand.tutorialgif}`}
+                  alt="tutorial animation"
+                />
               </ul>
             </div>
           );

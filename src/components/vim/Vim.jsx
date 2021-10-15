@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import Checkboxes from "../Checkbox/Checkboxes"
 import initialVim from "../../data/vim.json";
 import "../../styles/vim.scss";
 import _ from "lodash";
@@ -73,7 +74,8 @@ const Vim = () => {
             <div className={`vimTitle`} key={index}>
               <ul>
                 <li className="title_belt">
-                  {vimCommand.title} - {vimCommand.category} -
+                  {vimCommand.title} - {vimCommand.category} 
+                 <li> <Checkboxes /></li>
                 </li>
                 <li className="commands">{vimCommand.command}</li>
                 <img

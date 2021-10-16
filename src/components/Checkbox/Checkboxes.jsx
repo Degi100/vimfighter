@@ -12,7 +12,7 @@ const Checkboxes = () => {
   return (
     <div>
       <Checkbox
-        label="Add to Favorites"
+        label="Select as Favorite"
         value={checked}
         onChange={handleChange}
       />

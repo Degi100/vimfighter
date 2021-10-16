@@ -44,13 +44,12 @@ const Vim = () => {
 
   return (
     <div>
-      <input
+          <input
         className="inputBox"
         type="text"
         placeholder="Search for Command"
         onChange={changeSearchText}
-      />
-
+        />
       <select className="selectBox" onChange={changeCurrentCategory}>
         <option value="">All Categories</option>
         {initialDistinctCategories.map((category, index) => {

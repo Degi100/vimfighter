@@ -12,12 +12,12 @@ const Checkboxes = () => {
   return (
     <div>
       <Checkbox
-        label="I learned"
+        label="Add to Favorites"
         value={checked}
         onChange={handleChange}
       />
  
-      <p> {checked.toString()}</p>
+     {/* <p> {checked.toString()}</p> */}
     </div>
   );
 };

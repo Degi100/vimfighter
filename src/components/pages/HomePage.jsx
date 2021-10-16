@@ -3,7 +3,6 @@ import ScrollToTop from "../layout/ScrollToTop";
 import "../../styles/main.scss";
 const HomePage = () => {
   return (
-    <div>
       <div className="container-full">
         <div className="scroll">
           <ScrollToTop />
@@ -12,7 +11,6 @@ const HomePage = () => {
           <Vim />
         </div>
       </div>
-    </div>
   );
 };
 export default HomePage;

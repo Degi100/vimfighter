@@ -74,9 +74,8 @@ const Vim = () => {
               <ul>
                 <li className="title_belt">
                   <li>
-                    {" "}
-                    <Checkboxes />
                   </li>
+                            <Checkboxes />
                   {vimCommand.title} - {vimCommand.category}
                 </li>
                 <li className="commands">{vimCommand.command}</li>

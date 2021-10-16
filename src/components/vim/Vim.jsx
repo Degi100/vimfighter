@@ -75,13 +75,14 @@ const Vim = () => {
               <ul>
                 <li className="title_belt">
                   {vimCommand.title} - {vimCommand.category} 
-                 <li> <Checkboxes /></li>
+                 
                 </li>
                 <li className="commands">{vimCommand.command}</li>
-                <img
+                        
+               <img
                   src={`gif/${vimCommand.tutorialgif}`}
                   alt="tutorial animation"
-                />
+                /><li> <Checkboxes /></li>
               </ul>
             </div>
           );

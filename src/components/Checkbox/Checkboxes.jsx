@@ -6,15 +6,18 @@ const Checkboxes = () => {
   const handleChange = () => {
     setChecked(!checked);
   };
+
  
+  
   return (
     <div>
       <Checkbox
-        label=" learned and close animation"
+        label="I learned"
         value={checked}
         onChange={handleChange}
       />
-
+ 
+      <p> {checked.toString()}</p>
     </div>
   );
 };
@@ -23,7 +26,7 @@ const Checkbox = ({ label, value, onChange }) => {
   return (
     <label>
       <input type="checkbox" checked={value} onChange={onChange} />
-      {label}
+     {label}
     </label>
   );
 };
